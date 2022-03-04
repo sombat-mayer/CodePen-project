@@ -1,0 +1,99 @@
+.navigation-wrapper {
+    height: 80px;
+    background-color: #000000;
+    color: #ffffff;
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+  }
+
+.navigation-wrapper > .left-column > .logo img {
+  width: 200px;
+  height: 100%
+}
+
+.navigation-wrapper > .left-column {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 20px;
+}
+
+.navigation-wrapper > .left-column > .left-menu-wrapper {
+  display: grid;
+  grid-gap: 5px;
+  padding-left: 50px;
+}
+
+.navigation-wrapper > .left-column > .left-menu-wrapper a {
+  text-decoration: none;
+}
+
+.navigation-wrapper > .left-column > .left-menu-wrapper > .left-menu-row1-explore a {
+  color: #ffff00;
+}
+
+
+.navigation-wrapper > .left-column > .left-menu-wrapper > .left-menu-row2 {
+  display: flex;
+}
+
+.navigation-wrapper > .left-column  > .left-menu-wrapper > .left-menu-row2 > .spark {
+  margin-left: 60px;
+}
+
+.navigation-wrapper > .left-column  > .left-menu-wrapper > .left-menu-row2 > .spark a {
+  color: #999999;
+}
+
+.navigation-wrapper > .left-column > .left-menu-wrapper > .left-menu-row2 > .navlinks-wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+  font-weight: bold;
+}
+
+.navigation-wrapper > .left-column > .left-menu-wrapper > .left-menu-row2 > .navlinks-wrapper a {
+  color: #ffffff;
+}
+
+.navigation-wrapper > .rightmenu-column {
+  display: flex;
+  justify-content: space-between;
+  width: 400px;
+  padding-right: 20px;
+}
+
+.navigation-wrapper > .rightmenu-column a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.navigation-wrapper > .rightmenu-column > .creat  {
+ background-color: #666666;
+ padding: 10px 15px;
+ border-radius: 3px;
+}
+
+.navigation-wrapper > .rightmenu-column > .creat i {
+  color: #33cc00;
+  font-size: 1.3em;
+}
+
+.navigation-wrapper > .rightmenu-column > .magnify-icon {
+  color:#999999;
+  font-size: 2em;
+}
+
+.navigation-wrapper > .rightmenu-column > .log-in  {
+  background-color: #666666;
+  padding: 10px 15px;
+  border-radius: 3px;
+ }
+
+ .navigation-wrapper > .rightmenu-column > .sign-up  {
+  background-color: #666666;
+  padding: 10px 15px;
+  border-radius: 3px;
+ } 

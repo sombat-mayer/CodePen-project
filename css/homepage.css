@@ -1,0 +1,112 @@
+body {
+    margin: 0px;
+    font-family:'Open Sans', sans-serif;
+}
+
+.body-wrapper {
+    background-image: linear-gradient(to bottom right, #666666, #000000);
+    height: 700px;
+    font-family: 'Noto Sans', sans-serif;
+    padding-left: 20px;
+}
+
+.body {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    color: #ffffff;
+    padding-bottom: 40px;
+}
+
+.body-wrapper > .body > .paragraph-wrapper {
+    padding-left: 15px;
+    padding-right: 50px;
+}
+
+.body-wrapper > .body > .paragraph-wrapper > .paragraph1 {
+    font-size: 2em;
+}
+
+.body-wrapper > .body > .paragraph-wrapper > .paragraph2 {
+    font-size: 1.5em;
+    color: #cccccc;
+}
+
+.body-wrapper > .body > .paragraph-image {
+    padding-right: 20px;
+}
+
+.body-wrapper > .body > .paragraph-image img {
+    width: 600px;
+    height: auto;
+}
+
+.body-wrapper > .body > .paragraph-wrapper > .body-buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    align-items: center;
+    padding-left: 60px;
+}
+
+.body-wrapper > .body > .paragraph-wrapper > .body-buttons a {
+    text-decoration: none;
+}
+
+.body-wrapper > .body > .paragraph-wrapper > .body-buttons p {
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+.body-wrapper > .body > .paragraph-wrapper > .body-buttons > .free-sign-up p {
+    color: #000000;
+    background-color: #00ff33;
+    padding: 15px;
+    text-align: center;
+    border-radius: 3px;
+}
+
+.body-wrapper > .body > .paragraph-wrapper > .body-buttons > .learn-more p {
+    color: #ffffff;
+    background-color: #000000;
+    padding: 15px;
+    text-align: center;
+    border-radius: 3px;
+}
+
+.body-wrapper > .codepen-for-columns {
+    display: flex;
+    justify-content: space-evenly; 
+  
+    background-color: #666666;
+    border-radius: 2px;
+    margin-right: 20px;
+}
+
+.body-wrapper > .codepen-for-columns > .columns {
+    padding: 10px;
+}
+
+.body-wrapper > .codepen-for-columns > .columns span {
+    color: #ffffff;
+    font-size: 1.2em;
+    font-family: 'Roboto', sans-serif;
+}
+
+.body-wrapper > .codepen-for-columns > .columns > .uppercase-bold {
+    font-size: 2em;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
